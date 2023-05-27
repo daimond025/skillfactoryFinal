@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  scriptsrun:
+    build: ./dockerfile
+    ports:
+      - 8000:8000
+    volumes:
+      - ./dockerfile/:/workdir
+    restart: always
+
+networks:
+  grafana-net:

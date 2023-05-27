@@ -1,0 +1,7 @@
+numpy
+pandas
+joblib
+lightautoml
+uvicorn
+fastapi
+scikit-learn
